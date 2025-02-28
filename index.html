@@ -4,12 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Liste Recettes</title>
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap"
+  />
 
   <body>
-    <h1>YOOGY</h1>
+    <header class="container-header">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="Yoogy" />
+      </a>
+      <h4 class="menu">Recettes</h4>
+      <h1>Blog</h1>
+      <p>Découvrez nos recettes santé et gourmandes!</p>
+    </header>
+    <section class="container-recettes">
+      <h2>Nos recettes</h2>
+      <!-- Carte bol énergie -->
+      <a href="detail.html" class="recipe-card">
+        <img src="bol_energie.png" alt="bol energie" class="recipe-image" />
+        <div class="recipe-content">
+          <h4 class="author_name">Jane Doe</h4>
+          <h3 class="recipe-title">Bol énergie</h3>
+          <p class="recipe-description">
+            Une recette réconfortante pour petits et grands !
+          </p>
+          <div class="recipe-type">
+            <span>Health</span>
+            <span>Health</span>
+          </div>
+        </div>
+      </a>
+      <!-- Carte red smmothie -->
+      <a href="detail.html" class="recipe-card">
+        <img src="red_smoothie.png" alt="red smoothie" class="recipe-image" />
+        <div class="recipe-content">
+          <h4 class="author_name">Jane Doe</h4>
+          <h3 class="recipe-title">Red smoothie</h3>
+          <p class="recipe-description">
+            A smoothie that can fill up with antioxidants in no time !
+          </p>
+          <div class="recipe-type">
+            <span>Health</span>
+            <span>Health</span>
+          </div>
+        </div>
+      </a>
+      <!-- Carte heavy salad -->
+      <a href="detail.html" class="recipe-card">
+        <img src="heavy_salad.png" alt="heavy salad" class="recipe-image" />
+        <div class="recipe-content">
+          <h4 class="author_name">Jane Doe</h4>
+          <h3 class="recipe-title">Heavy salad</h3>
+          <p class="recipe-description">
+            A chickpea salad and several types of beans, healthy and quick to
+            make.
+          </p>
+          <div class="recipe-type">
+            <span>Health</span>
+            <span>Health</span>
+          </div>
+        </div>
+      </a>
+    </section>
+    <footer>
+        <a href="index.html" class="logo">
+            <img src="logo.png" alt="Yoogy" />
+          </a>
+      <nav class="footer-nav">
+        <ul>
+          <li>Yoga & Nutrition</li>
+          <li>Events</li>
+          <li><a href="index.html">Recipes</a></li>
+          <li>Contact</li>
+          <li>Mentions légales</li>
+        </ul>
+      </nav>
+      <p>© 2024 Daframe</p>
+    </footer>
   </body>
 </html>
