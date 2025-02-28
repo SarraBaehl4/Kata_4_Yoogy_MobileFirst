@@ -1,4 +1,154 @@
-
 body {
-    font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
+  background-color: #fff;
+  margin: auto;
+  width: 390px; /*largeur pour phone*/
+  height: 620px; /*hauteur pour phone*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-header {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.logo-header {
+  position: absolute;
+  width: 80px;
+  height: auto;
+  top: 10px;
+  left: 10px;
+}
+.menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+.blog {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+.descriptif-blog {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.container-recettes {
+  background-color: #c0cc9b;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container-recettes h2 {
+  font-size: 20px;
+  text-align: center;
+}
+/* CARTES des recettes */
+.recipe-card {
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  width: 100%;
+}
+.recipe-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.recipe-content {
+  text-align: left;
+  margin-top: 5px;
+}
+.author_name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #87a330;
+  margin-top: 5px;
+}
+.recipe-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.recipe-description {
+  font-size: 14px;
+  color: #666;
+}
+.recipe-type span {
+  background-color: #c0cc9b;
+  color:#666;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 15px;
+  min-width: 60%;
+  text-align: center;
+}
+/* FOOTER */
+/* FOOTER */
+footer {
+    width: 150%;
+    background-color: #111406;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px;
+}
+
+.logo{ 
+    width: 80px;
+    height: auto;
+    display: block;
+  }
+
+  .footer-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Aligne les éléments verticalement */
+    align-items: center; /* Centre les éléments */
+    gap: 10px; /* Espacement entre les liens */
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    font-size: 18px;
+    font-weight: 500;
+    color: #c0cc9b;
+}
+
+/* Lien actif */
+.footer-nav a {
+    text-decoration: none;
+    color: #c0cc9b;
+}
+
+.footer-nav a:hover {
+    color: #4CAF50; /* Effet au survol */
+}
+.mention_legale {
+    color: #c0cc9b;
 }
